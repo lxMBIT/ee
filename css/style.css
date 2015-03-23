@@ -71,7 +71,7 @@ header {
   height: 100vh;
   text-align: center;
   background: #303e49;
-  vertical-align: center;
+  margin-top: 20vh;
 }
 
 header h1 {
