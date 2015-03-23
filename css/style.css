@@ -3,6 +3,7 @@
 Primary style
 
 -------------------------------- */
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -44,6 +45,7 @@ h2 {
 Modules - reusable parts of our design
 
 -------------------------------- */
+
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -63,8 +65,9 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
+
 header {
-  line-height: 200px;
+  line-height: 20vh;
   height: 100vh;
   text-align: center;
   background: #303e49;
@@ -78,7 +81,7 @@ header h1 {
 
 @media only screen and (min-width: 1170px) {
   header {
-    line-height: 300px;
+    line-height: 20vh;
   }
   header h1 {
     font-size: 24px;
