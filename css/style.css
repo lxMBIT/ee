@@ -71,12 +71,12 @@ header {
   height: 100vh;
   text-align: center;
   background: #303e49;
-  margin-top: 20vh;
 }
 
 header h1 {
   font-size: 3vh;
   color: white;
+  margin-top: 20vh;
 }
 
 @media only screen and (min-width: 1170px) {
