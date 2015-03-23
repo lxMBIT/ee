@@ -67,23 +67,23 @@ Main components
 -------------------------------- */
 
 header {
-  line-height: 10vh;
+  line-height: 5vh;
   height: 100vh;
   text-align: center;
   background: #303e49;
 }
 
 header h1 {
-  font-size: 8vh;
+  font-size: 3vh;
   color: white;
 }
 
 @media only screen and (min-width: 1170px) {
   header {
-    line-height: 10vh;
+    line-height: 5vh;
   }
   header h1 {
-    font-size: 8vh;
+    font-size: 3vh;
   }
 }
 
