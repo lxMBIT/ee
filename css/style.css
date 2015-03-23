@@ -70,7 +70,7 @@ header {
   line-height: 5vh;
   height: 100vh;
   text-align: center;
-  background-image: url("/img/egraphic.jpg") no-repeat center center fixed;
+  background-image: url("/img/egraphic.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
