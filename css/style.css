@@ -74,11 +74,11 @@ header {
 }
 
 header #logo {
-  height: 20vh;
-  width: 20vh;
+  height: 10vh;
+  width: 10vh;
   color: white;
-  padding-top: 5vh;
-  padding-left: 5vh;
+  padding-top: 3vh;
+  padding-left: 3vh;
 }
 
 header h1 {
