@@ -3074,18 +3074,18 @@ table.alt tbody tr td {
 	-webkit-transition: opacity 3s ease;
 	-ms-transition: opacity 3s ease;
 	transition: opacity 3s ease;
-	-moz-transition-delay: 2.5s;
-	-webkit-transition-delay: 2.5s;
-	-ms-transition-delay: 2.5s;
-	transition-delay: 2.5s;
+	-moz-transition-delay: 2s;
+	-webkit-transition-delay: 2s;
+	-ms-transition-delay: 2s;
+	transition-delay: 2s;
 	opacity: 1;
 }
 
 #header.alt .logo {
-	-moz-transition: opacity 1.3s ease, -moz-transform 3s ease;
-	-webkit-transition: opacity 1.3s ease, -webkit-transform 3s ease;
-	-ms-transition: opacity 1.3s ease, -ms-transform 3s ease;
-	transition: opacity 1.3s ease, transform 3s ease;
+	-moz-transition: opacity 13s ease, -moz-transform 2.5s ease;
+	-webkit-transition: opacity 1s ease, -webkit-transform 2.5s ease;
+	-ms-transition: opacity 1s ease, -ms-transform 2.5s ease;
+	transition: opacity 1s ease, transform 2.5s ease;
 	-moz-transition-delay: 0s;
 	-webkit-transition-delay: 0s;
 	-ms-transition-delay: 0s;
