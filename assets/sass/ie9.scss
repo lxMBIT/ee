@@ -1,49 +1,73 @@
-@import "libs/vars";
-@import "libs/functions";
-@import "libs/mixins";
-@import "libs/skel";
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
 
-/* Loader */
+/*
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-body.landing {
-	&:before, &:after {
-		display: none !important;
-	}
-}
+/* Spotlight */
 
-/* Icon */
+	.spotlight {
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
 
-.icon {
-	&.alt {
-		color: inherit !important;
-	}
-	&.major {
-		&.alt {
-			&:before {
-				color: _palette(fg-bold) !important;
-			}
+		.content {
+			float: left;
+			width: 60%;
+		}
+
+		.image {
+			float: left;
 		}
 	}
-}
 
-/* Banner */
+/* Features */
 
-#banner {
-	&:after {
-		background-color: _palette(bg-transparent);
+	.features {
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		li {
+			float: left;
+		}
 	}
-}
+
+/* Statistics */
+
+	.statistics {
+		display: inline-block;
+		width: auto;
+
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		li {
+			float: left;
+			padding: 1.5em 2.5em;
+		}
+	}
 
 /* Footer */
 
-#footer {
-	.icons {
-		.icon {
-			&.alt {
-				&:before {
-					color: _palette(fg-bold) !important;
-				}
-			}
+	#footer {
+		> * {
+			float: left;
+		}
+
+		.copyright {
+			clear: both;
 		}
 	}
-}
